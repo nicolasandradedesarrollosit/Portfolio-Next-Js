@@ -1,6 +1,6 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Mi Aplicación",
+  name: "Nicolás Andrade",
   description: "Mi primer proyecto con Next.js",
 };

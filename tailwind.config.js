@@ -10,8 +10,23 @@ const config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-sans)"],
+        sans: ["Inter", "sans-serif"],
         mono: ["var(--font-mono)"],
+      },
+      colors: {
+        'international-klein-blue': {
+          '50': '#edf3ff',
+          '100': '#ddeaff',
+          '200': '#c2d7ff',
+          '300': '#9ebbff',
+          '400': '#7795ff',
+          '500': '#576ffd',
+          '600': '#3845f3',
+          '700': '#2c36d6',
+          '800': '#262fac',
+          '900': '#273088',
+          '950': '#171b4f',
+        },
       },
     },
   },

@@ -1,7 +1,17 @@
+import Hero from './_components/Hero';
+import Skills from './_components/Skills';
+import Projects from './_components/Projects';
+import Experience from './_components/Experience';
+import Education from './_components/Education';
+
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-      
-    </section>
+    <>
+      <Hero />
+      <Experience />
+      <Projects />
+      <Education />
+      <Skills />
+    </>
   );
 }

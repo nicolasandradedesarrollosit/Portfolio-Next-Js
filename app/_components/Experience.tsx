@@ -7,6 +7,11 @@ export default function Experience() {
             title: 'Freelancing (Node - React/Next)',
             period: 'Enero 2025 - Presente',
             description: 'Desarrollo de aplicaciones web full-stack'
+        },
+        {
+            title: 'Frontend Engineer - Teramot',
+            period: 'Diciembre 2025 - Presente',
+            description: 'Desarrollo de interfaces en Vite + React + TypeScript e involucración de backend en GO para servicios'
         }
     ];
 
